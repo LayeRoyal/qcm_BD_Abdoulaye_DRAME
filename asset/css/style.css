@@ -1,0 +1,449 @@
+body
+{
+    padding: 0;
+    margin: 0;     
+    font-family: 'Josefin Sans', Arial, sans-serif;}
+
+.cont{    
+    background-color: #51bbf5;
+}
+.cont h1{
+    width:90%;
+     color: white;
+      text-align: center;
+      margin: auto;
+      margin-left: -5%;
+       font-size: 3vw;
+          }
+.champ{
+    height: 50px;
+    font-size: 1.5vw;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: auto;}
+
+.login-container{
+    margin: auto;
+    margin-top: 15%;
+    height: 50vh;
+   
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.mid{
+    height: 85vh;
+    width: 100%;
+    background: url(../Images/bgQuizz.png) no-repeat;
+    background-size: 100%;
+}
+
+
+.form-container{
+    background: url(../Images/loginForm.png) no-repeat;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    position: absolute;
+    margin-left: -100px;
+    top:15vh;
+}
+.sub{ background-color: #51bbf5;
+    cursor: pointer; 
+    font-size: 25px;
+    color: #fff;
+    width: 35%; 
+    height: 50%; 
+    border-radius: 0.2vw ;
+     border: none;}
+.dep{
+   float: right;
+   text-decoration: none;
+   color: black;
+}
+
+
+                        /*INSCRIPTION*/
+
+.backmid{
+    background-image: url(../Images/bgContainer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 75vw;
+    margin-left: 10%;
+}
+.left .insc{
+    margin-left: 20%;
+}
+.left .insc h2{
+    font-size: 2vw;
+}
+
+.left .data h5{
+    font-size: 1.5vw;
+}
+.data{
+    font-size: 1.5vw;
+    margin-left: 5%;
+}
+.data span, .backq span{
+    visibility: hidden;
+    color: red;
+}
+.data button,.backq button{
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 0.3vw;
+    width: 13vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    color: #fff;
+    background-color: #51bbf5 ;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+.data input
+{
+    width: 60%;
+    height: 3.5vw;
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw; 
+    background-color: rgb(247, 247, 247);
+    border: none;
+    outline: 0;
+    border-bottom: 0.2vw solid rgb(103, 215, 234, 0.5)  ;
+    border-right: 0.2vw solid rgb(103, 215, 234, 0.5);
+    border-radius: 0.5vw;
+}
+
+.right{
+    height: 90%;
+}
+.right img{
+    height: 18vw;
+    width: 18vw;
+    border-radius: 50%;
+    margin-left: 20%;
+    border:  0.5vw solid #fff;
+}
+
+.right h3
+{
+    font-size: 2vw;
+    margin: 3% 0 0 15% ;
+    text-align: center;
+}
+
+.right input 
+{
+    display: none;
+}
+
+.right label 
+{
+    padding: 1%;
+    font-size: 1.5vw;
+    color: #fff;
+    background-color: #51bbf5 ;
+    margin: 20% 0 0 35%;
+    cursor: pointer;
+}
+
+.right .seconecter
+{
+    margin-top: 40%;
+    font-size: 1.5vw;
+}
+
+.right .seconecter h4
+{
+    font-size: 1.5vw;
+}
+.right .seconecter h4 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+.right .seconecter h4 a:hover{
+    color: red;
+}
+.data  .error, .backq .error{
+    border:  1px solid red;
+    box-shadow: 0 0 8px red;
+}
+
+.data .success, .backq .success{   
+    border: 1px solid #51bbf5 ;
+    box-shadow: 0 0 8px #51bbf5 ;
+}
+
+.alting
+{
+    color: red;
+    text-align: center;
+}
+
+.bon
+{
+    color: green;
+    text-align: center;
+}
+
+                /*admin page*/  
+.adminback{
+    height: 43vw;
+    width: 100%;
+    background: url(../Images/midBG.jpg) no-repeat;
+    background-size: 100%;
+}
+.cont .logout{
+    width: 160px;
+height: 45px;
+background-color: #ff0101;
+font-size: 20px;
+margin-top: 37px;
+color: white;
+border: none;
+border-radius: 6px;
+}
+.menu
+{
+    background: url(../Images/bgMenu.png) no-repeat;
+    background-size: 100%;
+    border-bottom-right-radius: 6%;
+    border-bottom-left-radius: 8%;
+    box-sizing: border-box;
+    margin-left: 2%;
+    height: 550px;
+}
+
+.avatarAdmin
+{
+margin-left: 25%;
+height: 175px;
+border: 5px solid white;
+}
+.tab ul {
+list-style: none;
+margin: 0;
+padding: 0;
+width:99%;
+margin-left: 1%;
+}
+.tab ul li{
+ margin-bottom: 2px;
+ padding: 10px;
+width: 100%;
+padding-left: 10%;
+background-color: rgba(184, 184, 184, 0.20);
+font-size: 20px;
+cursor: pointer;
+    }
+.tab ul .active{
+    background-color: #51bbf5;
+}
+
+.cont .band{
+    width: 83%;
+    margin-right: 0;
+}
+.include{
+    margin-left: 2%;
+    width: 70%;
+    border: 5px solid rgb(60, 112, 255);
+    border-radius: 5px;
+    height: 42vw;
+}
+
+#quest{
+    resize: none;
+    width: 60%;
+    font-size: 1.5vw;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    outline: 0;
+    border-bottom: 1.5px solid rgb(103, 215, 234)  ;
+    border-right: 1.5px solid rgb(103, 215, 234);
+    height: 8vw;
+    margin-left: 100px;}
+
+#point, #choix{
+    width: 15%;
+    color: #51bfd0;
+    height: 50%;
+    font-size: 2vw; 
+    background-color: rgb(247, 247, 247);
+    height: 3vw;
+    border: none;
+    outline: 0;
+    border-bottom: 1.5px solid rgb(103, 215, 234)  ;
+    border-right: 1.5px solid rgb(103, 215, 234);
+    margin-left: 35px;
+}
+#choix{
+    color:#51bfd0;
+    width: 50%;
+    height: unset;
+    margin-left: 18px;
+
+}
+#choix option
+{
+    color: black;
+    outline: 0;
+
+}
+#plus
+{ 
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:5%;
+    color: #333;
+    text-align:center;
+    position:relative;
+}    
+input[type=number]:hover::-webkit-inner-spin-button { 
+    background:  url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
+    width: 5%;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    margin-top: 1%;
+    border-radius: 100%;
+}
+
+#rep{
+    width: 90%;
+    height: 16vw;
+    max-height: 16vw;
+    overflow: scroll;
+}
+.but{
+    height: 37px;
+}
+
+.but p{
+height: 35px;
+width: 80%;
+text-align: center;
+margin-top: 0.6vw;
+margin-bottom: 0;
+}
+.but button
+{
+    margin-right: 10%;
+    font-size: 1.3vw;
+    width:18%; 
+    height: 35px;
+    color: white;
+    border:none;
+    background-color: #51bfd0;
+}
+
+.backq{
+    background-image: url(../Images/bgContainer.png);
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 67.1 vw;
+    display: flex;
+    background-size: 100%;
+
+}
+
+.backq input {
+    width: 60%;
+    height: 3vw;
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    outline: 0;
+    border-bottom: 0.2vw solid rgb(103, 215, 234, 0.5);
+    border-right: 0.2vw solid rgb(103, 215, 234, 0.5);
+    border-radius: 0.5vw;
+}
+.right .avat{
+    margin-left: 10%;
+    font-size: 2vw;
+}
+.avatar h4{
+    margin: 3% 0 0 45%;
+}
+
+.qmessage{
+    margin-top: 4vw;
+    width: 175%;
+    margin-left: -20vw;
+    height: 4vw;
+}
+
+.card-body{
+    background-color: #85d1fc;
+}
+
+#scrollZone{
+    max-height: 500px;
+    overflow: scroll;
+padding-top: 1vw;
+}
+#scrollZone input,#scrollZone textarea{
+pointer-events: none;
+}
+
+.userText{
+    margin-top: -2.5vw;
+    position: absolute;
+    width: 100%;
+}
+/*creer question*/
+
+#lab{ 
+    font-size: 1.5vw;
+    width: 17%;
+    font-weight: bold;
+    color: black;
+
+}
+
+#ipt{
+    width: 55%;
+    height: 3vw;
+    margin-bottom: 0.5vw;
+    margin-left: 5vw;
+    font-size: 1.5vw; 
+    background-color: rgb(247, 247, 247);
+    border: none;
+    outline: 0;
+    border-bottom: 1.5px solid rgb(103, 215, 234)  ;
+    border-right: 1.5px solid rgb(103, 215, 234);
+    
+}
+
+#ckbox{
+    height: 2vw;
+    width: 4vw;
+    margin-top: 0.5vw;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    outline: 0;
+    border-bottom: 1.5px solid rgb(103, 215, 234)  ;
+    border-right: 1.5px solid rgb(103, 215, 234);
+}
+
+#imgsup{
+    width: 1.5vw;
+    height: 2vw;
+}
